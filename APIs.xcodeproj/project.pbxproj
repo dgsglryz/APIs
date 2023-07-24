@@ -8,6 +8,9 @@
 
 /* Begin PBXBuildFile section */
 		A1FB1BB52A6E6A53000984E8 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1FB1BB42A6E6A53000984E8 /* main.swift */; };
+		A1FB1BBC2A6E6A64000984E8 /* BagAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1FB1BBB2A6E6A64000984E8 /* BagAPI.swift */; };
+		A1FB1BBE2A6E6B04000984E8 /* StackAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1FB1BBD2A6E6B04000984E8 /* StackAPI.swift */; };
+		A1FB1BC02A6E6BF6000984E8 /* QueueAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1FB1BBF2A6E6BF6000984E8 /* QueueAPI.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -25,6 +28,9 @@
 /* Begin PBXFileReference section */
 		A1FB1BB12A6E6A53000984E8 /* APIs */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = APIs; sourceTree = BUILT_PRODUCTS_DIR; };
 		A1FB1BB42A6E6A53000984E8 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
+		A1FB1BBB2A6E6A64000984E8 /* BagAPI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BagAPI.swift; sourceTree = "<group>"; };
+		A1FB1BBD2A6E6B04000984E8 /* StackAPI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StackAPI.swift; sourceTree = "<group>"; };
+		A1FB1BBF2A6E6BF6000984E8 /* QueueAPI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QueueAPI.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +64,9 @@
 			isa = PBXGroup;
 			children = (
 				A1FB1BB42A6E6A53000984E8 /* main.swift */,
+				A1FB1BBB2A6E6A64000984E8 /* BagAPI.swift */,
+				A1FB1BBD2A6E6B04000984E8 /* StackAPI.swift */,
+				A1FB1BBF2A6E6BF6000984E8 /* QueueAPI.swift */,
 			);
 			path = APIs;
 			sourceTree = "<group>";
@@ -120,7 +129,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A1FB1BC02A6E6BF6000984E8 /* QueueAPI.swift in Sources */,
 				A1FB1BB52A6E6A53000984E8 /* main.swift in Sources */,
+				A1FB1BBE2A6E6B04000984E8 /* StackAPI.swift in Sources */,
+				A1FB1BBC2A6E6A64000984E8 /* BagAPI.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
